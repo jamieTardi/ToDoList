@@ -1,0 +1,112 @@
+body{
+    background-image: url(images/plain2.jpg);
+    
+}
+@font-face{
+    
+    font-family: 'alex';
+    src: url(fonts/AlexBrush-Regular.ttf);
+
+}
+#userInput{
+min-width: 30%;
+min-height: 20px;
+font-size: large;
+
+}
+h1 {
+    color: rgba(252, 115, 3);
+    font-family: 'alex', Arial, Helvetica, sans-serif;
+    
+}
+h2{
+    font-family: 'alex', sans-serif;
+    color: lightblue;
+}
+
+h3 {
+    color: steelblue;
+    font-family: 'alex', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container {
+    text-align: center; 
+}
+
+.delete {
+    display: none;
+    
+}
+.done {
+    text-decoration: line-through;
+}
+
+
+ul {
+    text-align: left;
+    min-width: 50%;
+    margin-left: 30px;
+    
+}
+
+#submitBtn {
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 30px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    
+}
+
+
+.picture{
+    margin-left: 50%;
+    position: absolute;
+    min-height: 20%;
+
+}
+
+li > button {
+    float: right;
+    background-color: grey;
+    border-radius: 25px;
+    font-weight: 700;
+    width: 50px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    
+}
+
+li > button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
+li {
+    position: relative;
+    color: salmon;
+    border-radius: 15px;
+    border: 2px solid black;
+    border-style: solid;
+    border-width: medium;
+    list-style-type: none;
+    width: 50%;
+    height: fit-content;
+    font-weight: 800;
+    background-color: lightgray;
+    opacity: 0.8;
+    text-transform: capitalize;
+    min-width: 50%;
+    padding: 10px 15px;
+    overflow: hidden;
+    font-size: x-large;
+    margin-left: 300px;
+    align-self: auto;
+    
+}
+
